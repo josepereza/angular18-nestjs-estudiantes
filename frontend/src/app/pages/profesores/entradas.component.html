@@ -1,0 +1,20 @@
+<div class="container">
+    <form [formGroup]="profesorForm" (ngSubmit)="submit()">
+
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+        <input type="text" class="form-control" id="exampleFormControlInput1" formControlName="nombre" placeholder="Jose">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlInput2" class="form-label">Apellido</label>
+        <input type="text" class="form-control" id="exampleFormControlInput2" formControlName="apellido" placeholder="Perez">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlInput3" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleFormControlInput3" formControlName="email" placeholder="name@example.com">
+      </div>
+     <button class="btn btn-primary" type="submit">Enviar</button>
+
+</form>
+
+</div>

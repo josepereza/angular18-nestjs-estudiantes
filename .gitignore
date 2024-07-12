@@ -1,0 +1,4 @@
+/dist
+/crud-mysql-nestjs/node_modules
+/frontend/node_modules
+/build
